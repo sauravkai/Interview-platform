@@ -1,0 +1,151 @@
+Attached Element Context from Integrated Browser
+
+Element: a.inline-flex.items-center.gap-2.px-5.py-3.rounded-2xl.border.border-slate-200.text-slate-700.bg-white
+
+URL: http://localhost:3001/candidate/welcome
+
+HTML Path: div#root > div.min-h-screen.flex.flex-col.bg-white.dark:bg-slate-950.text-slate-900.dark:text-slate-100.transition-colors.duration-300 > main.flex-1.bg-white > div.min-h-screen.bg-gradient-to-br.from-indigo-50.via-purple-50.to-pink-50.flex.flex-col.items-center.p-6 > div.w-full.max-w-6xl.mt-8 > div.bg-white.rounded-3xl.shadow-xl.p-8.mb-8.border.border-slate-200 > div.md:flex.md:items-center.md:gap-8 > div.flex-1.text-center.md:text-left > div.mt-6.flex.flex-col.sm:flex-row.sm:items-center.sm:gap-4.gap-3.justify-center.md:justify-start > a.inline-flex.items-center.gap-2.px-5.py-3.rounded-2xl.border.border-slate-200.text-slate-700.bg-white
+
+Outer HTML:
+```html
+<a class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl border border-slate-200 text-slate-700 bg-white" href="/ai-interview/practice">Try Voice Mock Interview</a>
+```
+
+Dimensions:
+- top: 297px
+- left: 275px
+- width: 234px
+- height: 50px
+
+CSS:
+```css
+*, ::before, ::after { --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ; }
+*, ::before, ::after { box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */ }
+a { color: inherit;
+  text-decoration: inherit; }
+.inline-flex { display: inline-flex; }
+.items-center { align-items: center; }
+.gap-2 { gap: 0.5rem; }
+.rounded-2xl { border-radius: 1rem; }
+.border { border-width: 1px; }
+.border-slate-200 { --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity, 1)); }
+.bg-white { --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1)); }
+.px-5 { padding-left: 1.25rem;
+  padding-right: 1.25rem; }
+.py-3 { padding-top: 0.75rem;
+  padding-bottom: 0.75rem; }
+.text-slate-700 { --tw-text-opacity: 1;
+  color: rgb(51 65 85 / var(--tw-text-opacity, 1)); }
+
+/* Pseudo-elements */
+::before, ::after { --tw-content: ''; }
+.selection\:bg-indigo-500 *::selection { --tw-bg-opacity: 1;
+  background-color: rgb(99 102 241 / var(--tw-bg-opacity, 1)); }
+.selection\:text-white *::selection { --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1)); }
+::-webkit-scrollbar { width: 6px;
+  height: 6px; }
+::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.3);
+  border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(99, 102, 241, 0.6); }
+::-webkit-scrollbar-track { background: rgba(226, 232, 240, 0.6); }
+.dark ::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.6); }
+
+/* Inherited */
+.text-center { text-align: center }
+.md\:text-left { text-align: left }
+.text-slate-900 { color: rgb(15 23 42 / var(--tw-text-opacity, 1)) }
+.dark\:text-slate-100:is(.dark *) { color: rgb(241 245 249 / var(--tw-text-opacity, 1)) }
+body { font-family: Inter, sans-serif; color: rgb(15 23 42 / var(--tw-text-opacity, 1)) }
+.font-sans { font-family: Inter, sans-serif }
+html, :host { line-height: 1.5; tab-size: 4 }
+
+/* Resolved values */
+padding: 12px 20px;
+border-radius: 16px;
+border: 1px solid rgb(226, 232, 240);
+text-decoration: rgb(51, 65, 85);
+align-items: center;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(255, 255, 255);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(51, 65, 85);
+column-gap: 8px;
+cursor: pointer /*UA*/;
+display: flex;
+font-family: Inter, sans-serif;
+font-feature-settings: normal;
+height: 50px;
+line-height: 24px;
+row-gap: 8px;
+tab-size: 4;
+text-align: left;
+width: 233.75px;
+
+/* CSS variables */
+--tw-bg-opacity: 1;
+--tw-text-opacity: 1;
+--tw-border-opacity: 1;
+```

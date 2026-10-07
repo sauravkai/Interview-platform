@@ -1,8 +1,22 @@
 import axios from 'axios';
 
+const normalizeApiBaseUrl = (value) => {
+  if (!value) return '/api';
+
+  const trimmed = value.trim().replace(/\/$/, '');
+
+  if (trimmed.endsWith('/api')) return trimmed;
+
+  if (/^https?:\/\//i.test(trimmed)) {
+    return `${trimmed}/api`;
+  }
+
+  return trimmed.startsWith('/') ? `${trimmed}/api` : `/${trimmed}/api`;
+};
+
 // Support production multi-domain deployments via VITE_API_URL env var
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || '/api',
+  baseURL: normalizeApiBaseUrl(import.meta.env.VITE_API_URL || '/api'),
   headers: {
     'Content-Type': 'application/json',
   },

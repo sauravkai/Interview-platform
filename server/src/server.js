@@ -167,6 +167,14 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'success',
+    message: 'AI Interview Platform API is running successfully.'
+  });
+});
+
+
 // 9. API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/problems', problemRoutes);
